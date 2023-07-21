@@ -15,11 +15,11 @@ export default function Task(props) {
                 </Header>
                 <Header as="h5">{idTask}</Header>
                     <Grid center columns={2}>
-                        <Grid.Column>
+                        <GridColumn>
                             <Button color="red" onClick={() => deleteTask(idTask)}>
                                 <Icon name="remove circle" /> Eliminar
                             </Button>
-                        </Grid.Column>
+                        </GridColumn>
                     </Grid>
                 
             </Segment>

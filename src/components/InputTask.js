@@ -99,7 +99,7 @@ export default function InputTask(props) {
                 <Grid centered>
                     <Header as="h4" color="red" className="alert-error-form">
                         <Icon name="close" />
-                        <Header.Content>La tarea y la categoria son obligatorias</Header.Content>
+                        <HeaderContent>La tarea y la categoria son obligatorias</HeaderContent>
                         <Icon name="close" />
                     </Header>
                 </Grid>
